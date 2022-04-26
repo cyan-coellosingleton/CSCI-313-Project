@@ -1,1 +1,8 @@
-<p>browse-movies works!</p>
+<div class="wrapper" >
+    <div class = "container" *ngFor="let movie of movies">
+            <img class="poster" [src]="movie.poster" [alt]="movie.title">
+            <div class="overlay">
+                <div class="text" >{{movie.title}} <br> {{movie.genre}}</div>
+            </div>
+    </div>
+</div>
