@@ -1,0 +1,30 @@
+
+.background{
+    height:40em; background-size:cover; width:auto;
+    background-image:url('/assets/images/theatre_background.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: grey;
+  }
+ 
+  .lower{
+      height: 100%;
+      text-align:center;
+      color: grey;
+      background-color: rgb(43, 42, 42);
+  }
+
+  .left,.right{
+      height: 100%;
+      width: 50%;
+      background-color: rgb(43, 42, 42);
+      text-align: center;
+  }
+  
+  .hours{
+    display: inline-block;
+    width: 50%;
+   
+    }
+  
