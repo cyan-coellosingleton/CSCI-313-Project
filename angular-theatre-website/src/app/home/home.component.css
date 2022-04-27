@@ -6,12 +6,13 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-color: grey;
+    padding-top: 60px;
   }
  
   .lower{
       height: 100%;
       text-align:center;
-      color: grey;
+      color: beige;
       background-color: rgb(43, 42, 42);
   }
 

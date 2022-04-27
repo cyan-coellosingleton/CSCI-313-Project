@@ -1,0 +1,18 @@
+<div class = "wrapper" *ngIf="movie">
+    <h1 class = "title">{{movie.title}}</h1>
+    <div class = "content">
+        <div class = "poster">
+            <img class = "image" [src]="movie.poster" [alt]="movie.title">
+        </div>
+        <div class = "info">
+            <h3>About Movie</h3>
+            <p>
+                {{movie.description}}
+            </p>
+        </div>
+    </div>
+   
+    
+
+    
+</div>

@@ -8,12 +8,21 @@ import { DataService } from '../data.service';
 })
 export class BrowseMoviesComponent implements OnInit {
 
+   movies: {poster: string; title: string, genre: string, year: string, description: string}[] = [];
+  selectedMovie: any;
+  
   constructor(public dataService: DataService) { }
-
-  movies: {poster: string; title: string, genre: string, year: string}[] = [];
 
   ngOnInit(): void {
     this.movies = this.dataService.getMovies();
+  }
+
+  public selectMovie(movie: any){
+    this.selectedMovie = movie;
+  }
+
+  public getMovieInfo(Movie: {poster: any, title: any, genre: any, year: any, description: string}){
+    this.dataService.movieInfo = Movie;
   }
 
 }

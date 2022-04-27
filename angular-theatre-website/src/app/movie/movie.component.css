@@ -1,0 +1,43 @@
+.wrapper{
+    justify-content: center;
+    background-color: rgb(139, 11, 11);
+    height: 100%;
+    width: 100%;
+    padding-top: 65px;
+    display: inline-block;
+}
+
+  .title{
+      text-align: center;
+      background-color: rgb(43, 42, 42);
+      border-radius: 8px;
+      color: beige;
+  }
+
+  .content{
+      height: 100%;
+      width: 50%;
+      display: inline-block;
+  }
+
+  .image{
+      height: 100%;
+      width: 100%;
+      padding: 8px;
+      padding-top: 5px;
+      display: block;
+      border-radius: 8px;
+      justify-content: center;
+  }
+
+  .info{
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center; 
+    color:beige;
+    background-color: rgb(43, 42, 42);
+    border-radius: 8px;
+    padding: 10px;
+  }
