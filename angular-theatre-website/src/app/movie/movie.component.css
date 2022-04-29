@@ -1,43 +1,53 @@
 .wrapper{
-    justify-content: center;
     background-color: rgb(139, 11, 11);
-    height: 100%;
-    width: 100%;
     padding-top: 65px;
-    display: inline-block;
 }
 
   .title{
       text-align: center;
-      background-color: rgb(43, 42, 42);
+      background-color: rgb(41, 41, 41);
       border-radius: 8px;
       color: beige;
   }
 
-  .content{
-      height: 100%;
-      width: 50%;
-      display: inline-block;
+  .container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    padding: 0px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: transparent;
+    padding-bottom: 0;
+    overflow: hidden;
+
+    
   }
 
-  .image{
-      height: 100%;
+  .left{
+      left: 0;
+  }
+
+  .right{
+      right: 0;
+      float: right;
+      
+  }
+
+  .poster{
+      height: auto;
       width: 100%;
       padding: 8px;
-      padding-top: 5px;
+      padding-top: 3px;
       display: block;
-      border-radius: 8px;
-      justify-content: center;
+      border-radius:15px;
   }
 
   .info{
-    height: 100%;
-    width: 100%;
-    display: block;
-    justify-content: center;
-    text-align: center; 
-    color:beige;
-    background-color: rgb(43, 42, 42);
+    text-align: center;
+    background-color: rgb(41, 41, 41);
     border-radius: 8px;
-    padding: 10px;
+    color: beige;
   }
+

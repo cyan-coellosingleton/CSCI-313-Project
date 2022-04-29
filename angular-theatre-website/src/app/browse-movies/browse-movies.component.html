@@ -2,7 +2,7 @@
     <div class = "container" *ngFor="let movie of movies">
             <img class="poster" [src]="movie.poster" [alt]="movie.title">
             <div class="overlay">
-                <div class="text" >{{movie.title}} <br> {{movie.genre}} <br>
+                <div class="text" >{{movie.title}} <br> {{movie.duration}} <br> {{movie.genre}} <br> 
                 <button class=" btn btn-dark" (click)="getMovieInfo(movie)" routerLink="/movie"> About Movie</button>  
             </div>
     </div>
