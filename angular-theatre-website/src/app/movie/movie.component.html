@@ -8,9 +8,13 @@
             <h1 class = "title" *ngIf = "movie"> {{movie.title}}</h1>
             <div class="info">
                 <h5>MOVIE DESCRIPTION</h5>
-                <p>{{movie.description}}</p> <br>
+                <p>{{movie.description}}</p>
+                <h5>GENRE</h5>
+                <p>{{movie.genre}}</p>
                 <h5>VIEWING TIMES</h5>
-                <p>{{movie.times}}</p>
+                <div *ngFor='let time of movie.times'>{{time}}</div>
+                <button class=" btn btn-dark" (click)="getMovieInfo(movie)" routerLink="/reserve-ticket"> Reserve Tickets</button>
+                
                 
             </div>
     </div>

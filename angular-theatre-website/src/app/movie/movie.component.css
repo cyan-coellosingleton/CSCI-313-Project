@@ -51,3 +51,7 @@
     color: beige;
   }
 
+  .btn,.btn-dark{
+    background-color: rgb(139, 11, 11);
+  }
+

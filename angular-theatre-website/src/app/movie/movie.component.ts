@@ -16,8 +16,8 @@ export class MovieComponent implements OnInit {
     this.movie= this.dataService.movieInfo;
   }
 
-  public getMovieTimes(Movie: {poster: any, title: any, genre: any, year: any, description: string, duration: string, times: string[]}){
-    this.dataService.times = Movie.times;
+  public getMovieInfo(Movie: {poster: any, title: any, genre: any, year: any, description: string, duration: string, times: string[]}){
+    this.dataService.movieInfo = Movie;
   }
 
   

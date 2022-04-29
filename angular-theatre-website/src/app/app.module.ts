@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieComponent } from './movie/movie.component';
+import { ReserveTicketComponent } from './reserve-ticket/reserve-ticket.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MovieComponent } from './movie/movie.component';
     BrowseMoviesComponent,
     HeaderComponent,
     HomeComponent,
-    MovieComponent
+    MovieComponent,
+    ReserveTicketComponent
   ],
   imports: [
     BrowserModule,
