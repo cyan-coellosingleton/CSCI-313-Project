@@ -1,31 +1,36 @@
-
-.background{
-    height:40em; background-size:cover; width:auto;
-    background-image:url('/assets/images/theatre_background.jpg');
-    background-position:center;
+.background {
+    height: 40em;
+    background-size: cover;
+    width: auto;
+    background-image: url('/assets/images/theatre_background.jpg');
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-color: grey;
     padding-top: 60px;
-  }
- 
-  .lower{
-      height: 100%;
-      text-align:center;
-      color: beige;
-      background-color: rgb(43, 42, 42);
-  }
+}
 
-  .left,.right{
-      height: 100%;
-      width: 50%;
-      background-color: rgb(43, 42, 42);
-      text-align: center;
-  }
-  
-  .hours{
+.lower {
+    height: 100%;
+    text-align: center;
+    color: beige;
+    background-color: rgb(43, 42, 42);
+}
+
+.left,
+.right {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+}
+
+.hours {
     display: inline-block;
     width: 50%;
-   
-    }
-  
+
+}
+
+table {
+    display: inline-block;
+}
