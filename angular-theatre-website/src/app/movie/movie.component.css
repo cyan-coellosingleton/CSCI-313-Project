@@ -53,5 +53,6 @@
 
   .btn,.btn-dark{
     background-color: rgb(139, 11, 11);
+    margin: 10px;
   }
 

@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieComponent } from './movie/movie.component';
 import { ReserveTicketComponent } from './reserve-ticket/reserve-ticket.component';
+import { ConfirmationPageComponent } from './confirmation-page/confirmation-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ReserveTicketComponent } from './reserve-ticket/reserve-ticket.componen
     HeaderComponent,
     HomeComponent,
     MovieComponent,
-    ReserveTicketComponent
+    ReserveTicketComponent,
+    ConfirmationPageComponent
   ],
   imports: [
     BrowserModule,

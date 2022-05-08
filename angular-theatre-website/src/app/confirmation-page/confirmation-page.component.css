@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    color:white;
+    padding: 15px;
+}
+
+.btn,
+.btn-dark {
+    margin: 10px;
+
+}
+div{
+    background-color: rgb(139, 11, 11);
+}
