@@ -1,0 +1,24 @@
+<div class="wrapper">
+    
+    <div class = "container left" *ngIf="newmovie"> 
+            <img class="poster" [src]="newmovie.poster" [alt]="newmovie.title">
+       
+    </div>
+    <div class = "container right" *ngIf = "newmovie">
+            <h1 class = "title" *ngIf = "newmovie"> {{newmovie.title}}</h1>
+            <div class="info">
+                <h5>MOVIE DESCRIPTION</h5>
+                <p>{{newmovie.description}}</p>
+                <h5>GENRE</h5>
+                <p>{{newmovie.genre}}</p>
+                <button class=" btn btn-dark" (click)="getNewMovieInfo(newmovie)"></button>
+                
+                
+            </div>
+    </div>
+</div>
+    
+    
+
+
+

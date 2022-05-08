@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { MovieComponent } from './movie/movie.component';
 import { ReserveTicketComponent } from './reserve-ticket/reserve-ticket.component';
 import { ConfirmationPageComponent } from './confirmation-page/confirmation-page.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 const routes: Routes = [
   {path: "",pathMatch: "full",redirectTo: "home"},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: "movie",component: MovieComponent},
   {path: "reserve-ticket",component: ReserveTicketComponent},
   {path: "confirmation", component: ConfirmationPageComponent},
+  {path: "coming-soon", component: ComingSoonComponent},
 ];
 
 @NgModule({

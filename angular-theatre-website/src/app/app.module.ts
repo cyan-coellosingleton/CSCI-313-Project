@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieComponent } from './movie/movie.component';
 import { ReserveTicketComponent } from './reserve-ticket/reserve-ticket.component';
 import { ConfirmationPageComponent } from './confirmation-page/confirmation-page.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { NewMoviesComponent } from './new-movies/new-movies.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ConfirmationPageComponent } from './confirmation-page/confirmation-page
     HomeComponent,
     MovieComponent,
     ReserveTicketComponent,
-    ConfirmationPageComponent
+    ConfirmationPageComponent,
+    ComingSoonComponent,
+    NewMoviesComponent
   ],
   imports: [
     BrowserModule,

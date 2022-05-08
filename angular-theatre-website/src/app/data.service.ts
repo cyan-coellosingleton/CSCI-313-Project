@@ -21,6 +21,12 @@ export class DataService {
     {poster: '/assets/images/blue.jpg' ,title: 'Turning Blue', genre: "Childrens", year: '2022', description: " Follow a young girl named Kit as she discovers the pains of growing up. Her family has held a huge secret from her and  it may have to do with her favorite animal, th  dolphin!", duration: "1 hour 45 mins", times: ["11:15 am", "1:15 pm", "3:15pm", "5:15 pm", "7:15 pm"]}
   
   ]
+  newmovies = [
+    {poster: '/assets/images/humans.jpg' ,title: 'Secret Life of Humans', genre: 'Mystery', year: '2022'},
+    {poster: '/assets/images/cinderella.jpg' ,title: 'Cinderella and the 7 Birds', genre: 'Childrens', year: '2022'},
+    {poster: '/assets/images/sea.jpg' ,title: 'Sea Book', genre: 'Chidrens', year: '2022'},
+    {poster: '/assets/images/titanic.jpg' ,title: 'Titamic', genre: 'Romance', year: '2022'},
+  ]
 
   constructor() { }
 
@@ -41,4 +47,12 @@ public createTicket(user: {firstName: any, lastName: any, cardNum: any, cardDate
 }
 
 
+public getNewMovies():Array<{poster: string, title: string, genre: string, year: string}>{
+  return this.newmovies;
+}
+
+public getNewMovieInfo(newmovie: {poster: string, title: string, genre: string, year: string}){
+  const index: number = this.newmovies.indexOf(newmovie);
+
+}
 }

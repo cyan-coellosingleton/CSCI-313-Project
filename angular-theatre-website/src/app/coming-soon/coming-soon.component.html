@@ -1,0 +1,8 @@
+<div class="wrapper" >
+    <div class = "container" *ngFor="let newmovie of newmovies">
+            <img class="poster" [src]="newmovie.poster" [alt]="newmovie.title">
+            <div class="overlay">
+                <div class="text" ><b>{{newmovie.title}}</b> <br> {{newmovie.year}} <br> {{newmovie.genre}} <br>
+            </div>
+    </div>
+</div>

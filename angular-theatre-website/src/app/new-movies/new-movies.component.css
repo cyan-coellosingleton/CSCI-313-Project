@@ -1,0 +1,57 @@
+.wrapper{
+    background-color: rgb(139, 11, 11);
+    padding-top: 65px;
+}
+
+  .title{
+      text-align: center;
+      background-color: rgb(41, 41, 41);
+      border-radius: 8px;
+      color: beige;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    padding: 0px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: transparent;
+    padding-bottom: 0;
+    overflow: hidden;
+
+    
+  }
+
+  .left{
+      left: 0;
+  }
+
+  .right{
+      right: 0;
+      float: right;
+      
+  }
+
+  .poster{
+      height: auto;
+      width: 100%;
+      padding: 8px;
+      padding-top: 3px;
+      display: block;
+      border-radius:15px;
+  }
+
+  .info{
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    border-radius: 8px;
+    color: beige;
+  }
+
+  .btn,.btn-dark{
+    background-color: rgb(139, 11, 11);
+    margin: 10px;
+  }
